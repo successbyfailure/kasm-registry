@@ -2,10 +2,10 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'Mapache Webtops',
+    description: 'workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://docker.mapache.xyz/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
