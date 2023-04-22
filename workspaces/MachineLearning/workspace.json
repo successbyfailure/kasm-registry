@@ -1,0 +1,28 @@
+{
+  "description": "Instancia Cuda Con RTXs",
+  "docker_registry": "https://docker.mapache.xyz/v1/",
+  "image_src": "ml.png",
+  "name": "kasm-ml:latest",
+  "run_config": {
+    "hostname": "ml"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "ML",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ]
+}
