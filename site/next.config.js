@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'Mapache Webtops',
     description: 'workspaces.',
-    icon: '/img/logo.svg',
+    icon: 'https://successbyfailure.github.io/kasm-registry/1.0/mapache.png',
     listUrl: 'https://successbyfailure.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
