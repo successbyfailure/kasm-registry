@@ -2,7 +2,7 @@
   "description": "Instancia Cuda Con RTXs",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "ml.png",
-  "name": "kasm-ml:latest",
+  "name": "docker.mapache.xyz/kasm-ml:latest",
   "run_config": {
     "hostname": "ml"
   },
