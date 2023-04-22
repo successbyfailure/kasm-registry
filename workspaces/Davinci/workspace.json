@@ -2,7 +2,7 @@
   "description": "Instancia Maker con software de diseño e impresion",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "davinci.png",
-  "name": "kasm-davinci:latest",
+  "name": "docker.mapache.xyz/kasm-davinci:latest",
   "run_config": {
     "hostname": "Davinci"
   },
