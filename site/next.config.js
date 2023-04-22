@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Mapache Webtops',
     description: 'workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://successbyfailure.github.io/kasm-registry/1.0/',
+    listUrl: 'https://successbyfailure.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
