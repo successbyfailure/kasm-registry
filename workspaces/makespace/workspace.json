@@ -1,0 +1,26 @@
+{
+  "description": "Instancia de gestion MakeSpace",
+  "docker_registry": "https://docker.mapache.xyz/v1/",
+  "image_src": "m.png",
+  "name": "docker.mapache.xyz/kasm-makespace:latest",
+  "run_config": {
+    "hostname": "MakeSpace",
+    "shm_size": "1gb"
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "MakeSpace",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ],
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 2,
+  "memory": 4096
+}
