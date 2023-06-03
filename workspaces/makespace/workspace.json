@@ -1,7 +1,7 @@
 {
   "description": "Instancia de gestion MakeSpace",
   "docker_registry": "https://docker.mapache.xyz/v1/",
-  "image_src": "m.png",
+  "image_src": "m2.png",
   "name": "docker.mapache.xyz/kasm-makespace:latest",
   "run_config": {
     "hostname": "MakeSpace",
