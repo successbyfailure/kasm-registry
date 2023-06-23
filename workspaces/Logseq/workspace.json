@@ -1,0 +1,21 @@
+{
+  "description": "Instancia de Logseq",
+  "docker_registry": "https://docker.mapache.xyz/v1/",
+  "image_src": "logseq.png",
+  "name": "docker.mapache.xyz/kasm-logseq:latest",
+  "run_config": {
+    "hostname": "Logseq"
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Infra",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x"
+  ]
+}
