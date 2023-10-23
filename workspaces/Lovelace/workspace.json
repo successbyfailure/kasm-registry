@@ -1,0 +1,21 @@
+{
+  "friendly_name": "Developer",
+  "description": "Developers,developers,developers,developers!",
+  "docker_registry": "https://docker.mapache.xyz/v1/",
+  "image_src": "c.png",
+  "name": "docker.mapache.xyz/kasm-lovelace:latest",
+  "run_config": {
+    "hostname": "lovelace",
+    "security_opt": ["seccomp=unconfined"],
+    "privileged": true,
+    "shm_size": "1gb",
+  },
+  "exec_config": { },
+  "categories": [ "Developer" ],
+  "architecture": [ "amd64" ],
+  "compatibility": [ "1.13.x" ],
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 4096
+}
