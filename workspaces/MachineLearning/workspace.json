@@ -16,7 +16,11 @@
   "exec_config": { },
   "categories": [ "Developer" ],
   "architecture": [ "amd64" ],
-  "compatibility": [ "1.13.x" ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 8000,
   "require_gpu": true,
   "enabled": true,
   "image_type": "Container",

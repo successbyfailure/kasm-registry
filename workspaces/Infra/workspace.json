@@ -1,5 +1,6 @@
 {
-  "description": "Instancia Maker con software de diseño e impresion",
+  "friendly_name": "Infra",
+  "description": "Instancia de gestion de infra",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "borg.png",
   "name": "docker.mapache.xyz/kasm-infra:latest",
@@ -9,9 +10,8 @@
   "exec_config": {
   },
   "categories": [
-    "Browser"
+    "Browser", "Infra"
   ],
-  "friendly_name": "Infra",
   "architecture": [
     "amd64"
   ],
