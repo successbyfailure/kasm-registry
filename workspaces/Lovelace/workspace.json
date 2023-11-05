@@ -1,5 +1,5 @@
 {
-  "friendly_name": "Developer",
+  "friendly_name": "Lovelace",
   "description": "Developers,developers,developers,developers!",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "c.png",
@@ -8,7 +8,7 @@
     "hostname": "lovelace",
     "security_opt": ["seccomp=unconfined"],
     "privileged": true,
-    "shm_size": "1gb",
+    "shm_size": "1gb"
   },
   "exec_config": { },
   "categories": [ "Developer" ],
