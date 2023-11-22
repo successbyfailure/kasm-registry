@@ -1,6 +1,6 @@
 {
   "friendly_name": "Infra",
-  "description": "Instancia de gestion de infra",
+  "description": "Escritorio minimalista orientado a la gestion de infra",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "borg.png",
   "name": "docker.mapache.xyz/kasm-infra:latest",
@@ -10,7 +10,7 @@
   "exec_config": {
   },
   "categories": [
-    "Browser", "Infra"
+    "Desktop", "Infra"
   ],
   "architecture": [
     "amd64"

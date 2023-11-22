@@ -1,6 +1,6 @@
 {
   "friendly_name": "MakeSpace",
-  "description": "Instancia de gestion MakeSpace",
+  "description": "Escritorio Ofimatica",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "m2.png",
   "name": "docker.mapache.xyz/kasm-makespace:latest",
@@ -11,7 +11,8 @@
   "exec_config": {
   },
   "categories": [
-    "Browser"
+    "Desktop",
+    "Ofimatica"
   ],
   "architecture": [
     "amd64"

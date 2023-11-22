@@ -1,6 +1,6 @@
 {
   "friendly_name": "ML-Develop",
-  "description": "Instancia Cuda Con RTXs",
+  "description": "Instancia Cuda Con RTXs Nativas",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "ml.png",
   "name": "docker.mapache.xyz/kasm-ml:latest",
@@ -14,7 +14,8 @@
       "NVIDIA_DRIVER_CAPABILITIES": "all"}
   },
   "exec_config": { },
-  "categories": [ "Developer" ],
+  "categories": [ "Desktop",
+                   "Developer" ],
   "architecture": [ "amd64" ],
   "compatibility": [
     "1.13.x",

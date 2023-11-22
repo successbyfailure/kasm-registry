@@ -1,6 +1,6 @@
 {
   "friendly_name": "Lovelace",
-  "description": "Developers,developers,developers,developers!",
+  "description": "Escritorio Developer",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "c.png",
   "name": "docker.mapache.xyz/kasm-lovelace:latest",
@@ -11,7 +11,8 @@
     "shm_size": "1gb"
   },
   "exec_config": { },
-  "categories": [ "Developer" ],
+  "categories": [ "Desktop",
+                  "Developer" ],
   "architecture": [ "amd64" ],
   "compatibility": [
     "1.13.x",

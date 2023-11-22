@@ -1,6 +1,6 @@
 {
   "friendly_name": "Davinci",
-  "description": "Instancia Maker con software de diseño e impresion",
+  "description": "Escritorio Maker con software de diseño e impresion",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "davinci.png",
   "name": "docker.mapache.xyz/kasm-davinci:latest",
@@ -12,7 +12,7 @@
   "exec_config": {
   },
   "categories": [
-    "Browser","3D"
+    "Desktop","3D"
   ],
   "architecture": [
     "amd64"

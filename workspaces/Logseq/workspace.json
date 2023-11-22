@@ -1,5 +1,5 @@
 {
-  "description": "Instancia de Logseq",
+  "description": "Logseq App, En pruebas!",
   "docker_registry": "https://docker.mapache.xyz/v1/",
   "image_src": "logseq.png",
   "name": "docker.mapache.xyz/kasm-logseq:latest",
@@ -9,7 +9,7 @@
   "exec_config": {
   },
   "categories": [
-    "Browser"
+    "App"
   ],
   "friendly_name": "Logseq",
   "architecture": [
